@@ -42,4 +42,10 @@ public class MyHashMapALBuckets<K, V> extends MyHashMap<K, V> {
     protected Collection<Node> createBucket() {
         return new ArrayList<>();
     }
+
+    public static void main(String[] args) {
+        MyHashMapALBuckets m = new MyHashMapALBuckets<String, String>();
+        m.put("1", "2");
+
+    }
 }

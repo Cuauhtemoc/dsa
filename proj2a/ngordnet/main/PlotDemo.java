@@ -5,10 +5,11 @@ import ngordnet.ngrams.TimeSeries;
 import ngordnet.plotting.Plotter;
 import org.knowm.xchart.XYChart;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class PlotDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         String wordFile = "./data/ngrams/top_14377_words.csv";
         String countFile = "./data/ngrams/total_counts.csv";
         
